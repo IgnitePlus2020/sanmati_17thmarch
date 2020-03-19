@@ -12,7 +12,7 @@ public class dectoint {
         a = in.nextDouble();
         w=(int)a;
         System.out.println("Integer number = " + w);
-        f=(10*a-10*w)/10;
+        f=(a*10-w*10)/10;
         System.out.println("Fraction part is = " + f);
 
     }
