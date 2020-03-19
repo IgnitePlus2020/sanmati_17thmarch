@@ -7,6 +7,7 @@ public class series2 {
         System.out.println("Enter a number");
         Scanner in = new Scanner(System.in);
         int n=in.nextInt();
+        System.out.println("The series is ");
         for(int i=1;i<=n;i++)
         {
             if(i%2==0)
