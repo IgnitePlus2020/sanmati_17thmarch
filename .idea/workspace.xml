@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc85d453-4cfa-45f9-bf8e-917ca311714e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/armstrong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/factofnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/linear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/prime_ntom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/reversenum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/strrev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/xpowern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/bintodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/dectobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/infixexp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17thmarch.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/17thmarch/com/tgt/igniteplus/dectoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/series1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/series2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/series3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/series5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/series5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/numtowords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/numtowords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/prime_ntom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/prime_ntom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +38,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../14thmarch" />
   </component>
-  <component name="RunManager" selected="Application.linear">
-    <configuration name="armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.armstrong" />
-      <module name="18thmarch" />
+  <component name="RunManager" selected="Application.numtowords">
+    <configuration name="binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.binary" />
+      <module name="19thmarch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tgt.igniteplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bintodec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.bintodec" />
+      <module name="19thmarch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgt.igniteplus.*" />
@@ -65,7 +67,7 @@
     </configuration>
     <configuration name="linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.linear" />
-      <module name="18thmarch" />
+      <module name="19thmarch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgt.igniteplus.*" />
@@ -76,9 +78,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.palindrome" />
-      <module name="18thmarch" />
+    <configuration name="numtowords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.numtowords" />
+      <module name="19thmarch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgt.igniteplus.*" />
@@ -89,9 +91,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="strrev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.strrev" />
-      <module name="18thmarch" />
+    <configuration name="prime_ntom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.prime_ntom" />
+      <module name="19thmarch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgt.igniteplus.*" />
@@ -102,26 +104,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xpowern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.xpowern" />
-      <module name="18thmarch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgt.igniteplus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.binary" />
+      <item itemvalue="Application.bintodec" />
+      <item itemvalue="Application.linear" />
+      <item itemvalue="Application.numtowords" />
+      <item itemvalue="Application.prime_ntom" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.numtowords" />
+        <item itemvalue="Application.bintodec" />
+        <item itemvalue="Application.binary" />
         <item itemvalue="Application.linear" />
-        <item itemvalue="Application.armstrong" />
-        <item itemvalue="Application.palindrome" />
-        <item itemvalue="Application.strrev" />
-        <item itemvalue="Application.xpowern" />
+        <item itemvalue="Application.prime_ntom" />
       </list>
     </recent_temporary>
   </component>
@@ -139,30 +135,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584640506760">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584640506760" />
     <state x="550" y="188" key="FileChooserDialogImpl" timestamp="1584422742936">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="550" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584422742936" />
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1584603563395">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1584641073757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584603563395" />
-    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1584603563395">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584641073757" />
+    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1584641073757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584603563395" />
-    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1584603563395">
+    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584641073757" />
+    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1584641073757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584603563395" />
-    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1584603563395">
+    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584641073757" />
+    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1584641073757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584603563395" />
-    <state x="467" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584597210726">
+    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584641073757" />
+    <state x="467" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584699517851">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="467" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584597210726" />
+    <state x="467" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584699517851" />
     <state x="426" y="197" key="run.anything.popup" timestamp="1584601971019">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -9,16 +9,17 @@ public class prime_ntom {
         int n,m;
         n=in.nextInt();
         m=in.nextInt();
-       for(int j=2;j<=m;j++)
-        {
-            for(int i=n;i<=m;i++)
-            {
-                if(i%(j/2)!=0)
-                {
-                    System.out.println(i);
+        while (n<m) {
+            boolean flag = false;
+            for(int i = 2; i <= n/2; ++i) {
+                if(n % i == 0) {
+                    flag = true;
+                    break;
                 }
             }
-
+            if (!flag)
+                System.out.print(n + "\t");
+            ++n;
         }
     }
 }

@@ -8,11 +8,20 @@ public class numtowords {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter any number");
         n=in.nextInt();
-        System.out.println("Enter length of number");
-        length=in.nextInt();
-        /*for(int i=0;i<length;i++)
+        System.out.println("The number in words is");
+        int r=0,temp=n,dig;
+        while(n!=0)
         {
-            switch(n[i])
+            r=temp%10;
+            r=r*10;
+            temp=temp/10;
+        }
+        r=r/10;
+        temp = r;
+        while (temp != 0)
+        {
+            dig = temp % 10;
+            switch(dig)
             {
                 case 1:System.out.println("One \t");
                        break;
@@ -36,6 +45,7 @@ public class numtowords {
                     break;
                 default:
             }
-        }*/
+        }
+
     }
 }

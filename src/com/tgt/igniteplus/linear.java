@@ -14,9 +14,10 @@ public class linear {
         System.out.println("Enter a number in the array to be searched");
         int ele=in.nextInt();
         for(int i=0;i<n;i++)
-            if(a[i]==ele)
+            if(a[i]==ele){
                 System.out.println("Number found at position " + (i+1));
+                break;}
             else
-                break;
+                System.out.println("Number nit found");
     }
 }
