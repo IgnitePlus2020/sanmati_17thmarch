@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc85d453-4cfa-45f9-bf8e-917ca311714e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/armstrong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/infixexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/infixexp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/numtowords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/numtowords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tgt/igniteplus/infixexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tgt/igniteplus/InfixEvaluation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +30,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.numtowords">
+  <component name="RunManager" selected="Application.InfixEvaluation">
+    <configuration name="InfixEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.InfixEvaluation" />
+      <module name="17thmarch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tgt.igniteplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.armstrong" />
       <module name="19thmarch" />
@@ -86,29 +100,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numtowords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tgt.igniteplus.numtowords" />
-      <module name="19thmarch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgt.igniteplus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.armstrong" />
       <item itemvalue="Application.binary" />
       <item itemvalue="Application.bintodec" />
       <item itemvalue="Application.linear" />
-      <item itemvalue="Application.numtowords" />
+      <item itemvalue="Application.InfixEvaluation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.numtowords" />
+        <item itemvalue="Application.InfixEvaluation" />
         <item itemvalue="Application.armstrong" />
         <item itemvalue="Application.linear" />
         <item itemvalue="Application.bintodec" />
@@ -130,10 +131,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584640506760">
+    <state x="362" y="91" key="#Project_Structure" timestamp="1584807355443">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584640506760" />
+    <state x="362" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1584807355443" />
+    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584806897776">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584806897776" />
     <state x="606" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584778226978">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -142,22 +147,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="550" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584778156112" />
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1584778177415">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom" timestamp="1584807363452">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584778177415" />
-    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1584778177414">
+    <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584807363452" />
+    <state width="1493" height="224" key="GridCell.Tab.0.center" timestamp="1584807363452">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584778177414" />
-    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1584778177414">
+    <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584807363452" />
+    <state width="1493" height="224" key="GridCell.Tab.0.left" timestamp="1584807363451">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584778177414" />
-    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1584778177414">
+    <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584807363451" />
+    <state width="1493" height="224" key="GridCell.Tab.0.right" timestamp="1584807363452">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584778177414" />
+    <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584807363452" />
     <state width="1493" height="224" key="GridCell.Tab.1.bottom" timestamp="1584702516698">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -206,10 +211,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="224" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1584702524448" />
-    <state x="467" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584778195260">
+    <state x="250" y="7" key="SettingsEditor" timestamp="1584807408082">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="467" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584778195260" />
+    <state x="250" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584807408082" />
+    <state x="467" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584807093486">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="467" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584807093486" />
+    <state x="203" y="53" key="new project wizard" timestamp="1584778882414">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="203" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1584778882414" />
     <state x="426" y="197" key="run.anything.popup" timestamp="1584601971019">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
