@@ -2,9 +2,10 @@ package com.tgt.igniteplus;
 
 import java.util.Scanner;
 
-public class numtowords {
+/*public class numtowords {
     public static void main(String[] args) {
         int n,length;
+        int r[] = new int[20];
         Scanner in = new Scanner(System.in);
         System.out.println("Enter any number");
         n=in.nextInt();
@@ -12,40 +13,85 @@ public class numtowords {
         int r=0,temp=n,dig;
         while(n!=0)
         {
-            r=temp%10;
-            r=r*10;
-            temp=temp/10;
+            for(int i=0;)
+            r=n%10;
+            n=n/10;
         }
-        r=r/10;
         temp = r;
         while (temp != 0)
         {
             dig = temp % 10;
             switch(dig)
             {
-                case 1:System.out.println("One \t");
+                case 1:System.out.print("One \t");
                        break;
-                case 2:System.out.println("Two\t");
+                case 2:System.out.print("Two \t");
                     break;
-                case 3:System.out.println("Three \t");
+                case 3:System.out.print("Three \t");
                     break;
-                case 4:System.out.println("Four\t");
+                case 4:System.out.print("Four\t");
                     break;
-                case 5:System.out.println("Five \t");
+                case 5:System.out.print("Five \t");
                     break;
-                case 6:System.out.println("Six\t");
+                case 6:System.out.print("Six\t");
                     break;
-                case 7:System.out.println("Seven \t");
+                case 7:System.out.print("Seven \t");
                     break;
-                case 8:System.out.println("Eight \t");
+                case 8:System.out.print("Eight \t");
                     break;
-                case 9:System.out.println("Nine \t");
+                case 9:System.out.print("Nine \t");
                     break;
-                case 0:System.out.println("Zero \t");
+                case 0:System.out.print("Zero \t");
                     break;
                 default:
             }
         }
 
+    }
+}
+*/
+
+public class numtowords
+{
+    public static void main(String[] args) {
+        int num[]= new int[20];
+        int n;
+        System.out.println("Enter the length of the number");
+        Scanner in = new Scanner(System.in);
+        n=in.nextInt();
+        System.out.println("Enter the number");
+        for(int i=0;i<n;i++)
+            num[i]=in.nextInt();
+        System.out.print("The number is ");
+        for(int i=0;i<n;i++)
+            System.out.print(num[i]);
+        System.out.println("\nThe number in words is");
+        for(int i=0;i<n;i++)
+        {
+            switch(num[i]){
+                case 1:System.out.print("One \t");
+                    break;
+                case 2:System.out.print("Two \t");
+                    break;
+                case 3:System.out.print("Three \t");
+                    break;
+                case 4:System.out.print("Four\t");
+                    break;
+                case 5:System.out.print("Five \t");
+                    break;
+                case 6:System.out.print("Six\t");
+                    break;
+                case 7:System.out.print("Seven \t");
+                    break;
+                case 8:System.out.print("Eight \t");
+                    break;
+                case 9:System.out.print("Nine \t");
+                    break;
+                case 0:System.out.print("Zero \t");
+                    break;
+                default:
+            }
+
+        }
     }
 }

@@ -11,7 +11,7 @@ public class armstrong {
         temp=n;
         while(n!=0)
         {
-            r=r%10;
+            r=n%10;
             c+=r*r*r;
             n=n/10;
         }
