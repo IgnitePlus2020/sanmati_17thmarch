@@ -10,7 +10,8 @@ public class series5 {
         Scanner in = new Scanner(System.in);
         int n=in.nextInt();
         System.out.println("The series is ");
-        for(int i=1;i<=n;i++)
-            System.out.println(pow(i,2));
+        for(int i=1;i<=n;i++){
+            if(i==4) continue;
+            System.out.println(pow(i,2));}
     }
 }
